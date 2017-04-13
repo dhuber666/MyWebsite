@@ -52,6 +52,20 @@ body {
   text-shadow: -2px 2px 4px rgba(0,0,0,0.50);
   text-decoration: none;
   padding: 10px;
+
+
+}
+
+.animate {
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
+          position: relative;
+}
+
+.animate:hover {
+
+  -webkit-transform: rotate(20deg);
+         transform: rotate(20deg);
 }
 
 .content-content {
@@ -216,7 +230,20 @@ overflow: auto;
 
 .social-div > a {
   text-decoration: none;
+
 }
+
+.fa {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.fa:hover {
+
+  -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+}
+
 
 .social-div > a > i {
 
@@ -226,6 +253,8 @@ overflow: auto;
   margin-left: 35px;
   text-decoration: none;
 }
+
+
 
 .picture-m > h1 {
 
